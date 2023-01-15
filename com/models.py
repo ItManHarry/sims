@@ -30,6 +30,7 @@ class SysUser(BaseModel, db.Model, UserMixin):
     pwd = db.Column(db.String(128))                         # 用户密码
     is_admin = db.Column(db.Boolean, default=False)         # 是否超级管理员(默认否)
     email = db.Column(db.String(32))                        # 电子邮箱
+    phone = db.Column(db.String(24))                        # 电话号码
     logs = db.relationship('SysLog', back_populates='user') # 系统操作日志
 
     def set_password(self, password):
