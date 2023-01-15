@@ -1,4 +1,10 @@
 from com.plugins import *
+'''
+flask-migrate4 issue解决：
+此处需要显示导入所有的model，否则每次执行flask db migrate命令
+生成的脚本会drop掉所有的表！
+'''
+from com.models import *
 
 def reg_web_plugins(app):
     '''
