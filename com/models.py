@@ -39,6 +39,10 @@ class SysUser(BaseModel, db.Model, UserMixin):
 
     @staticmethod
     def create_admin():
+        '''
+        创建系统管理员-仅系统初始化使用
+        :return:
+        '''
         admin = SysUser.query.filter(SysUser.code == 'admin').first()
         if admin is None:
             admin = SysUser(id=uuid.uuid4().hex, name='Administrator', code='admin', is_admin=True)
@@ -48,6 +52,9 @@ class SysUser(BaseModel, db.Model, UserMixin):
             print('超级管理员创建成功！！！')
         else:
             print('超级管理员已创建，不要重复创建！！！')
+'''
+
+'''
 '''
 系统操作日志
 '''
