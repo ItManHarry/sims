@@ -1239,3 +1239,27 @@ INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:26:35] "[36mGET /static/css
 INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:26:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:26:35] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
 INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:26:39] "POST /api/auth/get_token HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\all.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 624-257-355
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
