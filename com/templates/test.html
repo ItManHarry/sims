@@ -13,15 +13,18 @@
     <h1><i class="bi bi-card-checklist"></i>&nbsp;&nbsp;This is my test page!</h1>
     <hr>
     <div class="row">
-        <div class="col-md-2">
-            <button class="btn btn-outline-primary" id="api">API Test</button>
+        <div class="col-md-1">
+            <button class="btn btn-outline-primary" id="gt">Generate Token</button>
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-outline-info" id="vt">Validate Token</button>
         </div>
     </div>
 </div>
 </body>
 <script>
     $(function(){
-        $('#api').click(function(){
+        $('#gt').click(function(){
             $.post('http://localhost/api/auth/get_token', {grant_type:'password', 'username':'admin','password':'Sims2022$'}, function(data){
 				alert(data.code)
 				alert(data.message)

@@ -7,7 +7,7 @@ CORS(api)
 # 剔除csrf保护
 csrf.exempt(api)
 # 注册路由
-from com.api.user import UserAPI
-from com.api.auth import AuthAPI
+from .user import UserAPI
+from .auth import AuthAPI
 api.add_url_rule('/user/<code>', view_func=UserAPI.as_view('user_api'), methods=['GET'])
 api.add_url_rule('/auth/get_token', view_func=AuthAPI.as_view('auth_api'), methods=['POST'])

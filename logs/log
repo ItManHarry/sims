@@ -1263,3 +1263,32 @@ DEBUG base.py:944 Looking for jobs to run
 DEBUG base.py:1020 No jobs; waiting until a job is added
 WARNING _internal.py:224  * Debugger is active!
 INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+INFO _internal.py:224 [33mPress CTRL+C to quit[0m
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:09] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:47:10] "POST /api/auth/get_token HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:08] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:09] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:09] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:09] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:10] "POST /api/auth/get_token HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:32] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:32] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:32] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 16:50:33] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
