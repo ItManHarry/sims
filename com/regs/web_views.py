@@ -1,9 +1,8 @@
-
 def reg_web_blueprints(app):
     '''
     注册蓝本
     :param app:
     :return:
     '''
-    from com.api.user import api_user
-    app.register_blueprint(api_user, url_prefix='/api/user')
+    from com.api.resource import api
+    app.register_blueprint(api, url_prefix='/api')  # 对外API

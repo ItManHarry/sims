@@ -440,6 +440,13 @@ DEBUG base.py:1020 No jobs; waiting until a job is added
 WARNING _internal.py:224  * Debugger is active!
 INFO _internal.py:224  * Debugger PIN: 131-530-891
 INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 15:08:09] "POST /api_user/get_info/57a5e9d2bf584184a89f688336f20ebc HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\models.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
 INFO _internal.py:224 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:80
 INFO _internal.py:224 [33mPress CTRL+C to quit[0m
@@ -448,18 +455,164 @@ INFO base.py:171 Scheduler started
 DEBUG base.py:944 Looking for jobs to run
 DEBUG base.py:1020 No jobs; waiting until a job is added
 WARNING _internal.py:224  * Debugger is active!
-INFO _internal.py:224  * Debugger PIN: 370-350-541
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:45:36] "[33mGET /api/call_user/jkl HTTP/1.1[0m" 404 -
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:45:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:46:54] "GET /api_user/get_info/jkl HTTP/1.1" 200 -
-INFO _internal.py:224  * Detected change in 'D:\\Python\\Projects\\sims\\com\\regs\\web_views.py', reloading
-INFO _internal.py:224  * Detected change in 'D:\\Python\\Projects\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 09:50:58] "[33mGET /api_user/get_info/1234 HTTP/1.1[0m" 404 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 09:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 09:51:03] "GET /api/user/get_info/1234 HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 09:51:11] "GET /api/user/get_info/57a5e9d2bf584184a89f688336f20ebc HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
 INFO _internal.py:224  * Restarting with watchdog (windowsapi)
 INFO base.py:171 Scheduler started
 DEBUG base.py:944 Looking for jobs to run
 DEBUG base.py:1020 No jobs; waiting until a job is added
 WARNING _internal.py:224  * Debugger is active!
-INFO _internal.py:224  * Debugger PIN: 370-350-541
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:49:10] "[33mGET /api_user/get_info/jkl HTTP/1.1[0m" 404 -
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:49:16] "GET /api/user/get_info/jkl HTTP/1.1" 200 -
-INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 20:51:04] "GET /api/user/get_info/7e656a78c376485291dc03237fdc0bab HTTP/1.1" 200 -
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\resource.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+INFO _internal.py:224 [33mPress CTRL+C to quit[0m
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:19] "[33mGET /api/user/get_info/57a5e9d2bf584184a89f688336f20ebc HTTP/1.1[0m" 404 -
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\flask\\app.py', reloading
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:24] "[35m[1mGET /api/user/get/57a5e9d2bf584184a89f688336f20ebc HTTP/1.1[0m" 500 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:24] "GET /api/user/get/57a5e9d2bf584184a89f688336f20ebc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:25] "GET /api/user/get/57a5e9d2bf584184a89f688336f20ebc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:25] "GET /api/user/get/57a5e9d2bf584184a89f688336f20ebc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:25] "[36mGET /api/user/get/57a5e9d2bf584184a89f688336f20ebc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:35] "[35m[1mGET /api/user/get/123 HTTP/1.1[0m" 500 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:35] "GET /api/user/get/123?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:35] "GET /api/user/get/123?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:35] "GET /api/user/get/123?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:19:36] "[36mGET /api/user/get/123?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:20:20] "GET /api/user/get/123 HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:20:24] "GET /api/user/get/admin HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:20:36] "GET /api/user/get/ADMIN HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [17/Jan/2023 11:20:38] "GET /api/user/get/ADMIN HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
