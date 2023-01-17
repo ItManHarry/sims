@@ -1,6 +1,5 @@
 import os
 import logging
-import secrets
 dev_db = os.getenv('DEV_DB')
 uat_db = os.getenv('UAT_DB')
 pro_db = os.getenv('PRO_DB')
@@ -9,7 +8,9 @@ base_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 全局配置
 '''
 class GlobalConfig():
-    SECRET_KEY = secrets.token_hex()
+    # import secrets
+    # print(secrets.token_hex())
+    SECRET_KEY = os.getenv('SECRET_KEY')  # secrets.token_hex()
     LOG_LEVEL = logging.DEBUG
     LOG_PATH = os.path.join(base_dir, 'logs\\log')
 '''

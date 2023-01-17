@@ -8,9 +8,9 @@ def reg_web_global_path(app):
     :param app:
     :return:
     '''
-    @app.route('/')
-    def index():
-        return render_template('home.html', name='School Intelligence Management System')
+    @app.route('/test')
+    def test():
+        return render_template('test.html')
 
     @app.before_request
     def request_intercept_before():
