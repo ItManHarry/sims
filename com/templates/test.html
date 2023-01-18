@@ -14,10 +14,10 @@
     <h1><i class="bi bi-card-checklist"></i>&nbsp;&nbsp;This is my test page!</h1>
     <hr>
     <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-2">
             <button class="btn btn-outline-primary" id="gt">Generate Token</button>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-2">
             <button class="btn btn-outline-info" id="vt">Validate Token</button>
         </div>
     </div>
@@ -25,12 +25,18 @@
 <script>
     $(function(){
         $('#gt').click(function(){
-            $.post('http://localhost/api/auth/get_token', {grant_type:'password', 'username':'admin','password':'Sims2022$'}, function(data){
+            $.post('http://localhost/api/auth/get_token', {grant_type:'password', username:'admin',password:'Sims2022$'}, function(data){
 				alert(data.code)
 				alert(data.message)
 				if(data.code == 200){
 					alert(data.access_token)
 				}
+			}, 'json')
+        })
+        $('#vt').click(function(){
+            $.get('http://localhost/api/auth/val_token/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI1N2E1ZTlkMmJmNTg0MTg0YTg5ZjY4ODMzNmYyMGViYyJ9.cUuc60910Apdkws6uyTVwwJjRAWsEgKfWMwDWVN4Hqg', {}, function(data){
+				alert(data.code)
+				alert(data.message)
 			}, 'json')
         })
     })

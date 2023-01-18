@@ -3267,3 +3267,393 @@ DEBUG base.py:944 Looking for jobs to run
 DEBUG base.py:1020 No jobs; waiting until a job is added
 WARNING _internal.py:224  * Debugger is active!
 INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\regs\\web_global.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:57] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:57] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:57] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:58] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:00:59] "POST /api/auth/get_token HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:01:19] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:23] "GET /tmpls/calendar HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/css/calendar.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/js/calendar/underscore-min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/js/calendar/calendar.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "[36mGET /static/js/calendar/zh-CN.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:24] "GET /tmpls/month.html HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:25] "GET /tmpls/month-day.html HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:03:25] "GET /tmpls/events-list.html HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\auth.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\all.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\all.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\all.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\sims\\com\\api\\all.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\command.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\config.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\context.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\environment.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\migration.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\op.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\alembic\\__main__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\apscheduler\\events.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\apscheduler\\job.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\apscheduler\\util.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\apscheduler\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\authlib\\consts.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\authlib\\deprecate.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\authlib\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\core.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\dates.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\languages.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\lists.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\localedata.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\numbers.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\plural.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\support.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\units.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\util.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\babel\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\backports\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\blinker\\base.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\blinker\\_saferef.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\blinker\\_utilities.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\blinker\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\api.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\backend_ctypes.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\cffi_opcode.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\commontypes.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\cparser.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\error.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\ffiplatform.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\lock.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\model.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\pkgconfig.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\recompiler.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\setuptools_ext.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\vengine_cpy.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\vengine_gen.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\verifier.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\cffi\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\big5freq.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\big5prober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\chardistribution.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\charsetgroupprober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\charsetprober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\codingstatemachine.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\codingstatemachinedict.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\cp949prober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\enums.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\escprober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\escsm.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\eucjpprober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\euckrfreq.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\euckrprober.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\euctwfreq.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\chardet\\euctwprober.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PcxImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PdfImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PdfParser.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PixarImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PngImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PpmImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PsdImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PSDraw.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\PyAccess.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\SgiImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\SunImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\TarIO.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\TgaImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\TiffImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\TiffTags.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\WalImageFile.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\WebPImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\WmfImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\XbmImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\XpmImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\_binary.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\_deprecate.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\_tkinter_finder.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\_util.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\_version.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\PIL\\__main__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pip\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pip\\__main__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pip\\__pip-runner__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pkg_resources\\py31compat.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pkg_resources\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\ast_transforms.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\c_ast.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\c_generator.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\c_lexer.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\c_parser.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\lextab.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\plyparser.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\yacctab.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\_ast_gen.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\_build_tables.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pycparser\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\book.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\constants.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\cookbook.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\core.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\deprecated.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\exceptions.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\parser.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\renderer.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\sheet.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\source.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\_compact.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel\\__version__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\book.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\constants.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\exceptions.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\io.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\manager.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\plugins.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\reader.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\service.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\sheet.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\utils.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\writer.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\_compact.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_io\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pyexcel_webio\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\charset.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\connections.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\converters.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\cursors.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\err.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\optionfile.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\protocol.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\times.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\_auth.py', reloading
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\pymysql\\__init__.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\forms\\sys\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\forms\\sys\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\forms\\sys\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\forms\\sys\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\forms\\sys\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\views\\system\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\views\\system\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\views\\system\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\views\\system\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\bm\\com\\views\\system\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\forms\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\infs\\If_HR.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\infs\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\tasks.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\task_asset_in_remind.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\task_borrow_remind.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\task_demo.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\task_reinsurance_remind.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\task_synch_hr.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\jobs\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\regs\\web_globals.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\regs\\web_plugins.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\regs\\web_shells.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\views\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\com\\views\\main.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\migrations\\versions\\2d017ea51faf_add_new_tables.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itam\\migrations\\versions\\e6ebf8e0076d_history_add_columns_for_search.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\migrations\\versions\\5d88c990d326_test_migrate.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\forms\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\forms\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\infs\\If_GSR.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\infs\\If_HR.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\infs\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\jobs\\tasks.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\jobs\\task_demo.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\jobs\\task_synch_gsr.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\jobs\\task_synch_hr.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\jobs\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\web_errors.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\web_globals.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\web_plugins.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\web_shells.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\web_views.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\regs\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\views\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\github\\itpm\\pm\\views\\main.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\forms\\sys\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\forms\\sys\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\forms\\sys\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\forms\\sys\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\forms\\sys\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\views\\system\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\views\\system\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\views\\system\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\views\\system\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itam\\com\\views\\system\\user.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itams\\com\\forms\\sys\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itams\\com\\forms\\sys\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itams\\com\\forms\\sys\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itams\\com\\forms\\sys\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itams\\com\\forms\\sys\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:28] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224  * Detected change in 'd:\\development\\python\\venvs\\flask2\\Lib\\site-packages\\flask\\app.py', reloading
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:15:29] "[35m[1mGET /api/auth/val_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI1N2E1ZTlkMmJmNTg0MTg0YTg5ZjY4ODMzNmYyMGViYyJ9.cUuc60910Apdkws6uyTVwwJjRAWsEgKfWMwDWVN4Hqg HTTP/1.1[0m" 500 -
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itis\\itis\\forms\\system\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itis\\itis\\forms\\system\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itis\\itis\\forms\\system\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itis\\itis\\forms\\system\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itis\\itis\\forms\\system\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itpm\\pm\\forms\\system\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itpm\\pm\\forms\\system\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itpm\\pm\\forms\\system\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itpm\\pm\\forms\\system\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\itpm\\pm\\forms\\system\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\cookbook\\chapter10\\s4\\a.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\cookbook\\chapter10\\s4\\b.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\cookbook\\chapter10\\s4\\__init__.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter1\\frenchdeck.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter1\\Vector.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\ArraySample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\BisectSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\DequeSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\ListSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\NumpySample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\SliceSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\SortSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter2\\TupleSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter3\\BasicSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter3\\DictSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter3\\SetSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter3\\VariationSample.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter4\\Example01.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter4\\Example02.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pl\\fluent\\py\\chapter4\\Example03.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\biz\\document.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\biz\\issue.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\biz\\program.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\dicts.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\menu.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\module.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\org.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\role.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\pm\\pm\\forms\\sys\\user.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\args.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\auth.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\errors.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\resources.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\schemas.py', reloading
+INFO _internal.py:224  * Detected change in 'D:\\Development\\Python\\workplaces\\todolist\\work\\api\\v1\\__init__.py', reloading
+INFO _internal.py:224  * Restarting with watchdog (windowsapi)
+INFO base.py:171 Scheduler started
+DEBUG base.py:944 Looking for jobs to run
+DEBUG base.py:1020 No jobs; waiting until a job is added
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 131-530-891
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:22] "GET /test HTTP/1.1" 200 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:22] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:22] "[36mGET /static/js/jquery-3.6.1.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:23] "[36mGET /static/css/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1[0m" 304 -
+INFO _internal.py:224 127.0.0.1 - - [18/Jan/2023 14:16:24] "GET /api/auth/val_token/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI1N2E1ZTlkMmJmNTg0MTg0YTg5ZjY4ODMzNmYyMGViYyJ9.cUuc60910Apdkws6uyTVwwJjRAWsEgKfWMwDWVN4Hqg HTTP/1.1" 200 -

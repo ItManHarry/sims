@@ -4,6 +4,18 @@ from authlib.jose import jwt, JoseError
 from com.models import SysUser
 class AuthAPI(MethodView):
 
+    def get(self, token):
+        if validate_token(token):
+            return {
+                'code': 200,
+                'message': 'Token validated successfully!'
+            }
+        else:
+            return {
+                'code': 400,
+                'message': 'Token validated failed!'
+            }
+
     def post(self):
         '''
         获取令牌

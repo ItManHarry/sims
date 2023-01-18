@@ -10,4 +10,5 @@ csrf.exempt(api)
 from .user import UserAPI
 from .auth import AuthAPI
 api.add_url_rule('/user/<code>', view_func=UserAPI.as_view('user_api'), methods=['GET'])
-api.add_url_rule('/auth/get_token', view_func=AuthAPI.as_view('auth_api'), methods=['POST'])
+api.add_url_rule('/auth/get_token', view_func=AuthAPI.as_view('auth_get_token'), methods=['POST'])
+api.add_url_rule('/auth/val_token/<token>', view_func=AuthAPI.as_view('auth_val_token'), methods=['GET'])
