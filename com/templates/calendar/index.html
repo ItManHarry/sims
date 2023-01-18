@@ -3,36 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Test Page</title>
+    <title>Calendar</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap-icons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/calendar.min.css')}}">
     <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.6.1.min.js')}}"></script>
     <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/calendar/underscore-min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/calendar/calendar.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/calendar/zh-CN.js')}}"></script>
 </head>
 <body>
 <div class="container-fluid">
-    <h1><i class="bi bi-card-checklist"></i>&nbsp;&nbsp;This is my test page!</h1>
-    <hr>
     <div class="row">
-        <div class="col-md-1">
-            <button class="btn btn-outline-primary" id="gt">Generate Token</button>
-        </div>
-        <div class="col-md-1">
-            <button class="btn btn-outline-info" id="vt">Validate Token</button>
+        <div class="col-6 offset-1">
+            <div id="calendar"></div>
         </div>
     </div>
 </div>
 <script>
     $(function(){
-        $('#gt').click(function(){
-            $.post('http://localhost/api/auth/get_token', {grant_type:'password', 'username':'admin','password':'Sims2022$'}, function(data){
-				alert(data.code)
-				alert(data.message)
-				if(data.code == 200){
-					alert(data.access_token)
-				}
-			}, 'json')
-        })
+        $('#calendar').calendar(
+            {
+                tmpl_path: "/tmpls/",
+                language: 'zh-CN',
+				events_source: function () { return []; }
+            }
+        )
     })
 </script>
 </body>
