@@ -12,6 +12,10 @@ def reg_web_global_path(app):
     def test():
         return render_template('test.html')
 
+    @app.route('/index')
+    def index():
+        return render_template('index.html')
+
     @app.before_request
     def request_intercept_before():
         if current_user is None:
