@@ -3,6 +3,9 @@ from com.plugins import csrf
 bp_user = Blueprint('user', __name__)
 # 剔除csrf保护
 csrf.exempt(bp_user)
+@bp_user.route('/index', methods=['GET'])
+def index():
+    return render_template('sys/user/index.html')
 @bp_user.route('/add', methods=['GET', 'POST'])
 def add():
     if request.method == 'POST':
