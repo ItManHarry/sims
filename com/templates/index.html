@@ -94,19 +94,14 @@
         $('#myTab').find('button').each(function(){
             tab_ids.push($(this).attr('id'))
         })
-        /* 如果关闭的是最后一个Tab，则激活前面的Tab， 否则激活后面的Tab */
-        var close_index = $.inArray(id, tab_ids), active_id = ''
-        if(close_index == $(tab_ids).length-1)
-            active_id = tab_ids[close_index-1]
-        else
-            active_id = tab_ids[close_index+1]
-        alert('Close id : '+id+', active id : '+active_id)
+        /* 获取要激活的Tab id:关闭当前Tab，激活前面的Tab */
+        var close_index = $.inArray(id, tab_ids)
+        var active_id = tab_ids[close_index-1]
         /* 移除Tab & Tab Pane */
         $('#'+id).parent().remove()
         $('#'+id+'-pane').remove()
-        /* 激活并显示Tab & Tab Pane */
-        $('#'+active_id).addClass('active')
-        $('#'+active_id+'-pane').addClass('show active')
+        /* 激活并显示Tab & Tab Pane, 触发click即可 */
+        $('#'+active_id).click()
     }
 </script>
 </body>
