@@ -9,17 +9,39 @@
     <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            系统管理
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" onclick="add_tab('user-index', '用户清单', '{{url_for('user.index')}}')">用户清单</button></li>
+            <li><button class="dropdown-item" onclick="add_tab('user-add', '用户添加', '{{url_for('user.add')}}')">用户添加</button></li>
+            <li><button class="dropdown-item" onclick="add_tab('user-edit', '用户编辑', '{{url_for('user.edit')}}')">用户编辑</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="container-fluid">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">首页</button>
       </li>
-      <li class="nav-item" role="presentation">
+      {#<li class="nav-item" role="presentation">
         <button class="nav-link" id="user-add" data-bs-toggle="tab" data-bs-target="#user-add-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">用户添加&nbsp;&nbsp;<i class="bi bi-x" onclick="close_tab('user-add')"></i></button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="user-edit" data-bs-toggle="tab" data-bs-target="#user-edit-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">用户编辑&nbsp;&nbsp;<i class="bi bi-x" onclick="close_tab('user-edit')"></i></button>
-      </li>
+      </li>#}
     </ul>
     <br>
     <div class="tab-content" id="myTabContent">
@@ -28,7 +50,7 @@
               <iframe src="{{url_for('user.index')}}" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="tab-pane fade" id="user-add-pane" role="tabpanel" aria-labelledby="user-add" tabindex="0">
+        {#<div class="tab-pane fade" id="user-add-pane" role="tabpanel" aria-labelledby="user-add" tabindex="0">
             <div class="ratio ratio-21x9">
               <iframe src="{{url_for('user.add')}}" allowfullscreen></iframe>
             </div>
@@ -37,15 +59,45 @@
             <div class="ratio ratio-21x9">
               <iframe src="{{url_for('user.edit')}}" allowfullscreen></iframe>
             </div>
-        </div>
+        </div>#}
     </div>
 </div>
 <script>
-     function close_tab(id){
-        alert('id : '+id)
-        $('#'+id).remove()
+    /* 动态添加Tab， 参数：Tab id， Tab名称， 显示内容对应的URL地址 */
+    function add_tab(id, name, url){
+        /* 先清除所有的active tab & tab pane */
+        $('#myTab').find('button').each(function(){
+            $(this).removeClass('active')
+        })
+        $('#myTabContent').children().each(function(){
+            $(this).removeClass('show active')
+        })
+        /* 判断是否存在，不存在添加 */
+        var tab_exist = false
+        $('#myTab').find('button').each(function(){
+            if($(this).attr('id') == id)
+                tab_exist = true
+        })
+        if(!tab_exist){
+            var tab = "<li class='nav-item' role='presentation'>"+
+                "<button class='nav-link' id='"+id+"' data-bs-toggle='tab' data-bs-target='#"+id+"-pane' type='button' role='tab' aria-controls='profile-tab-pane' aria-selected='false'>"+name+"&nbsp;&nbsp;<i class='bi bi-x' onclick=\"close_tab(\'"+id+"\')\"></i></button>"+
+                "</li>"
+            var tabContent = "<div class=\"tab-pane fade\" id=\""+id+"-pane\" role=\"tabpanel\" aria-labelledby=\""+id+"\" tabindex=\"0\">"+
+                "<div class=\"ratio ratio-21x9\">"+
+                "  <iframe src=\""+url+"\" allowfullscreen></iframe>"+
+                "</div></div>"
+            $('#myTab').append(tab)
+            $('#myTabContent').append(tabContent)
+        }
+        /* 激活并显示Tab & Tab Pane */
+        $('#'+id).addClass('active')
+        $('#'+id+'-pane').addClass('show active')
+    }
+    function close_tab(id){
+        alert('id : '+id+', url is : '+"{{url_for('user.edit')}}")
+        $('#'+id).parent().remove()
         $('#'+id+'-pane').remove()
-     }
+    }
 </script>
 </body>
 </html>
