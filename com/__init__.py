@@ -10,7 +10,7 @@ def create_app(config=None):
     if config is None:
         config = 'dev_config'
     # 实例化应用
-    app = Flask('com')
+    app = Flask(__name__)
     # 装载配置
     app.config.from_object(config_dict[config])
     # 配置日志
