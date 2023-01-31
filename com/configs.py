@@ -13,17 +13,16 @@ class GlobalConfig():
     SECRET_KEY = os.getenv('SECRET_KEY')  # secrets.token_hex()
     LOG_LEVEL = logging.DEBUG
     LOG_PATH = os.path.join(base_dir, 'logs\\log')
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 '''
 开发环境
 '''
 class DevConfig(GlobalConfig):
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = os.getenv('DEVELOP_DATABASE_URL', dev_db)
 '''
 测试环境
 '''
 class UatConfig(GlobalConfig):
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = os.getenv('UAT_DATABASE_URL', uat_db)
     WTF_CSRF_ENABLED = False
     TESTING = True
@@ -32,7 +31,6 @@ class UatConfig(GlobalConfig):
 正式环境
 '''
 class ProConfig(GlobalConfig):
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = os.getenv('PRODUCT_DATABASE_URL', pro_db)
     LOG_LEVEL = logging.ERROR
 
