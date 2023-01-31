@@ -19,6 +19,7 @@ class GlobalConfig():
 '''
 class DevConfig(GlobalConfig):
     SQLALCHEMY_DATABASE_URI = os.getenv('DEVELOP_DATABASE_URL', dev_db)
+    LOG_LEVEL = logging.ERROR
 '''
 测试环境
 '''
