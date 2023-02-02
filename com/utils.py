@@ -21,7 +21,7 @@ def is_safe_url(target):
     return test_url.scheme in ('http','https') and ref_url.netloc == test_url.netloc
 def redirect_back(default='main.index', **kwargs):
     '''
-    通用返回方法(默认返回博客首页)
+    通用返回方法(默认返回首页)
     :param default:
     :param kwargs:
     :return:
