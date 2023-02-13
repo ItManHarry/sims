@@ -1,8 +1,8 @@
 import os
 import logging
-dev_db = os.getenv('DEV_DB')
-uat_db = os.getenv('UAT_DB')
-pro_db = os.getenv('PRO_DB')
+dev_db = os.getenv('DEV_DB', 'mysql+pymysql://sims:Sims2023@localhost:3306/sims')
+uat_db = os.getenv('UAT_DB', 'mysql+pymysql://sims:Sims2023@localhost:3306/sims')
+pro_db = os.getenv('PRO_DB', 'mysql+pymysql://sims:Sims2023@localhost:3306/sims')
 base_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 '''
 全局配置
